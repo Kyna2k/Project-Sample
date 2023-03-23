@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_margin="10dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:id="@+id/grid_sanpham"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hinhsach"
+            android:background="#EEEE"
+            android:padding="5dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@mipmap/hinh3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tensach"
+            android:fontFamily="@font/magistral_bold"
+            android:padding="2dp"
+            android:textColor="@color/text_color"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Hôm nay tôi không ổn lắm"
+            android:maxLines="2"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/hinhsach"
+            app:layout_constraintStart_toStartOf="@+id/hinhsach"
+            app:layout_constraintTop_toBottomOf="@+id/hinhsach" />
+
+        <TextView
+            android:id="@+id/tentacgia"
+            android:padding="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nathan Phan"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tensach"
+            app:layout_constraintTop_toBottomOf="@+id/tensach" />
+
+        <TextView
+            android:layout_marginTop="76dp"
+            android:id="@+id/giathue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/magistral_bold"
+            android:text="100.000 VNĐ"
+            android:textColor="@color/color_app2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tensach"
+            app:layout_constraintTop_toBottomOf="@+id/hinhsach" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

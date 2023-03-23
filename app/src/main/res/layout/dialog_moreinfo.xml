@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/magistral_bold"
+            android:text="Thông tin thêm"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:background="#EEEE"
+            android:padding="2dp"
+            android:id="@+id/hinhTacGia"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/hinh1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tentacgia_ne"
+            android:fontFamily="@font/magistral_bold"
+            android:textColor="@color/color_app2"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="@string/tentacgia"
+            app:layout_constraintEnd_toEndOf="@+id/hinhTacGia"
+            app:layout_constraintStart_toStartOf="@+id/hinhTacGia"
+            app:layout_constraintTop_toBottomOf="@+id/hinhTacGia" />
+
+        <TextView
+            android:id="@+id/tentacgia_new2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Tên tác giả: Nathan Phan"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/tentheloai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thể loại: Hentai"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/tentacgia_new2"
+            app:layout_constraintTop_toBottomOf="@+id/tentacgia_new2" />
+
+        <TextView
+            android:id="@+id/tenNXB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhà xuất bản: Huy Phan"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/tentheloai"
+            app:layout_constraintTop_toBottomOf="@+id/tentheloai" />
+
+
+        <ImageView
+            android:id="@+id/logo_nxb"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/anhnxb"
+            app:layout_constraintEnd_toEndOf="@+id/tenNXB"
+            app:layout_constraintStart_toStartOf="@+id/tenNXB"
+            app:layout_constraintTop_toBottomOf="@+id/tenNXB" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

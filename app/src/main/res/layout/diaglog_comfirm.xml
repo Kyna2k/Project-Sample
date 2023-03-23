@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="20dp"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_margin="20dp"
+            android:id="@+id/noidung"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/magistral_bold"
+            android:text="Bạn có đồng ý đổi mật khẩu? Sau khí đổi hệ thống sẽ tự động đăng xuất"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <Button
+            android:textSize="14sp"
+            android:id="@+id/btn_comfrim"
+            style="@style/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/magistral_bold"
+            android:text="Đồng ý"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/noidung" />
+
+        <Button
+            android:layout_height="40dp"
+            android:textSize="14sp"
+            android:background="@drawable/background_cancel"
+            android:id="@+id/btn_cancel"
+            style="@style/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/magistral_bold"
+            android:text="Hủy"
+            android:textColor="@color/icon_fade"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noidung" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

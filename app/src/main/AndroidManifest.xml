@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.assigment">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/phuongnam2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Assigment"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.ThongKeDoanhThu"
+            android:parentActivityName=".view.MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.AddSachAcitivty"
+            android:exported="false"
+            android:parentActivityName=".view.QuanLySachActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.QuanLyTheLoai"
+            android:exported="false"
+            android:parentActivityName=".view.HomeQuanLySachActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.QuanLyNXB"
+            android:exported="false"
+            android:parentActivityName=".view.HomeQuanLySachActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.QuanLyTacGiacActivity"
+            android:exported="false"
+            android:parentActivityName=".view.HomeQuanLySachActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.HomeQuanLySachActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.XemPhieuMuonActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.CapNhatUserActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.TaoUserActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.QuanLySachActivity"
+            android:exported="false"
+            android:parentActivityName=".view.HomeQuanLySachActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.QuanLyUserActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.QuanLyPhieuMuonActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".view.UpdataProfileAcitivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.ThongTinSachActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.ChangePassActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LoadingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Phương Nam Books</string>
+    <string name="dangky">Bạn chưa có tài khoản ?<font color="#38ef7d"><b> Đăng Ký</b></font></string>
+    <string name="hello_dangky">Hello! \n<font color="#22C086"><b>Member mới</b></font></string>
+    <string name="hello_dangky2">Hello! \n<font color="#22C086"><b>Cậu Admins</b></font></string>
+
+    <string name="open">openne</string>
+    <string name="close">closene</string>
+    <string name="tentacgia">Nathan Phan</string>
+</resources>

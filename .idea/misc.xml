@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable-v24/background_avatar2.xml" value="0.4095" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable-v24/ic_home_f_svgrepo_com.xml" value="0.2085" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/background.xml" value="0.386" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/background_avatar.xml" value="0.15" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/background_btn.xml" value="0.386" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/background_cancel.xml" value="0.2785" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/background_main.xml" value="0.386" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/background_ver2.xml" value="0.15" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/cusor.xml" value="0.386" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.386" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/menu_click.xml" value="0.285" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/drawable/src_thongtin.xml" value="0.3415" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/activity_changle_pass.xml" value="0.2264151024877837" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/activity_loading.xml" value="0.46770833333333334" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/activity_login.xml" value="0.2264151024877837" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/activity_sign_in.xml" value="0.2264151024877837" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/activity_thong_tin_sach.xml" value="0.39114583333333336" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/activity_updata_profile_acitivity.xml" value="0.2264151024877837" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/diaglog_comfirm.xml" value="0.4453125" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/dialog_moreinfo.xml" value="0.2988679352838745" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/fragment_home.xml" value="0.25104166666666666" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/fragment_thongtincanhan.xml" value="0.28229166666666666" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/fragment_top10.xml" value="0.2988679352838745" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/header_menu.xml" value="0.38177083333333334" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/loading_dialog.xml" value="0.46770833333333334" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/recycle_grid_sanpham.xml" value="0.36354166666666665" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/recycle_list_sanpham.xml" value="0.36614583333333334" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/layout/recycle_thongtin_sach.xml" value="0.39010416666666664" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/menu/menu.xml" value="0.2264151024877837" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/du an mau/PS23156_CP17307_Phan Thanh Huy_Assignment/app/src/main/res/menu/nav_menu.xml" value="0.24947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

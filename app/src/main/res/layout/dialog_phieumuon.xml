@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="20dp"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+        <TextView
+            android:textColor="@color/white"
+            android:fontFamily="@font/magistral_bold"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="Thêm phiếu mượn"
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_theo_user2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/thongtinsach"
+            layout="@layout/recycle_list_sanpham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <include
+            android:id="@+id/thongtinmember"
+            layout="@layout/recycle_list_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/thongtinsach"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ngay"
+            style="@style/edit_dangky"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="17dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/thongtinmember">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nhapngay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/magistral_bold"
+                android:hint="Ngày cho mượn"
+                android:text="Hôm nay"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ngay2"
+            style="@style/edit_dangky"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/thongtinmember">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ngaytra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/magistral_bold"
+                android:hint="Ngày trả"
+                android:text="Chưa có"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_comfrim"
+            style="@style/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:fontFamily="@font/magistral_bold"
+            android:text="Đồng ý"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toTopOf="@+id/btn_cancel" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_cancel"
+            style="@style/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/background_cancel"
+            android:fontFamily="@font/magistral_bold"
+            android:text="Hủy"
+            android:textColor="@color/icon_fade"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ngay2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
